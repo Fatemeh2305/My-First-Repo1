@@ -3,7 +3,7 @@ my_flask_app/
 ├── app.py
 │   └──
         import sqlite3
-        from flask import Flask, render_template, request, g, redirect, url_for, session, flash
+        from flask import Flask, render_template, request, g, redirect, url_for, session, flas
 
         app = Flask(__name__)
         app.secret_key = "supersecretkey"  # Change this in production
