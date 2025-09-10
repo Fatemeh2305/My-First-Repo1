@@ -10,7 +10,7 @@ my_flask_app/
         DATABASE = "messages.db"
 
         ADMIN_USERNAME = "admin"
-        ADMIN_PASSWORD = "password123"  # Change this in productio
+        ADMIN_PASSWORD = "password123"  # Change this in producti
 
         def get_db():
             db = getattr(g, "_database", None)
