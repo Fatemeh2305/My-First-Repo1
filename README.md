@@ -6,7 +6,7 @@ my_flask_app/
         from flask import Flask, render_template, request, g, redirect, url_for, session, flas
 
         app = Flask(__name__)
-        app.secret_key = "supersecretkey"  # Change this in producti
+        app.secret_key = "supersecretkey"  # Change this in 
         DATABASE = "messages.db"
 
         ADMIN_USERNAME = "admin"
