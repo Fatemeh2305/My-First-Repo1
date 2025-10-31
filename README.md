@@ -61,7 +61,7 @@ my_flask_app/
                                (name, email, message))
                 db.commit()
 
-                return render_template("contact.html", title="Contact", success=True, name=name)
+                db . return render_template("contact.html", title="Contact", success=True, name=name)
             return render_template("contact.html", title="Contact", success=False)
 
         @app.route("/login", methods=["GET", "POST"])
