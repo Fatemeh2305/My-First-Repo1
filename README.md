@@ -17,6 +17,7 @@ my_flask_app/
             if db is None:
                 db = g._database = sqlite3.connect(DATABASE)
                 db.row_factory = sqlite3.
+                Flask
             
 
         @app.teardown_appcon
