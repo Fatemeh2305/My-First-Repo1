@@ -18,6 +18,7 @@ my_flask_app/
                 db = g._database = sqlite3.connect(DATABASE)
                 db.row_factory = sqlite3.
                 Flask
+                 message TEXT NOT NULL
             
 
         @app.teardown_appcon
