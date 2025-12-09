@@ -75,7 +75,7 @@ my_flask_app/
                     session["logged_in"] = True
                     flash("Login successful!", "success")
                     return redirect(url_for("admin"))
-                else:
+                
                     flash("Invalid credentials", "danger")
             return render_template("login.html", title="Login")
 
