@@ -12,7 +12,7 @@ my_flask_app/
         ADMIN_USERNAME = "admin"
         ADMIN_PASSWORD = "password123"  # Change this in producti
 
-        def get_db():
+        def get_db():pys
             db = getattr(g, "_database", )
             if db is None:
                 db = g._database = sqlite3.connect(DATABASE)
